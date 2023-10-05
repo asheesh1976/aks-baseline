@@ -51,7 +51,7 @@ param domainName string = 'contoso.com'
 
 @description('Your cluster will be bootstrapped from this git repo.')
 @minLength(9)
-param gitOpsBootstrappingRepoHttpsUrl string = 'https://github.com/mspnp/aks-baseline'
+param gitOpsBootstrappingRepoHttpsUrl string = 'https://github.com/asheesh1976/aks-baseline'
 
 @description('You cluster will be bootstrapped from this branch in the identified git repo.')
 @minLength(1)
